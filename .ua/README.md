@@ -2,6 +2,8 @@
 
 完整的开发者入门指南见 [docs/UA_ONBOARDING.md](../docs/UA_ONBOARDING.md)，包含关键概念、文件地图和复杂度热点。
 
+实际构建与并存操作见 [Linux / Windows 源码构建与官方版本隔离手册](../study-notes/Pi_Linux_Windows_Source_Build_and_Isolation_Guide.md)，包含独立启动器、数据路径核验和官方文件前后校验。
+
 Pi 是可扩展的智能体工具集，以 TypeScript monorepo 组织多模型 LLM 接口、通用 Agent 循环、编码 CLI、会话管理与终端界面，并提供 Chord 跨进程对象运行时、Durable 持久会话运行时、远程执行环境及 P2 应用。
 
 分析源版本：[`6b339afc92e1`](https://github.com/AManHasNoName12138/pi/commit/6b339afc92e1dc6574f3234e1850dff36c77294b)。目标分支：`study-notes`。生成时间：2026-11-12T10:50:52.569Z。
